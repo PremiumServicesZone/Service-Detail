@@ -1,76 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Platform</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1068717285337584');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1068717285337584&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
-<style>
-body{background:black;color:white;font-family:sans-serif;padding:20px;}
-h2{color:red;}
-.section{border:2px solid red;padding:15px;margin-bottom:20px;border-radius:10px;}
-.button{display:block;width:100%;text-align:center;background:blue;color:white;padding:15px;border-radius:8px;text-decoration:none;font-size:20px;margin-top:30px;}
-.price{color:cyan;font-size:22px;font-weight:bold;}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b16">
+  <title>Elite Membership</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#090912;--panel:#131322;--panel2:#19192b;--text:#f8f5ff;--muted:#aaa8bb;--gold:#f5c76a;--pink:#f363a4;--cyan:#61d5f5;--violet:#9b7aff;--green:#75e0af;--line:rgba(255,255,255,.11);--shadow:0 24px 80px rgba(0,0,0,.42)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-width:320px;color:var(--text);font-family:'Hind Siliguri',sans-serif;background:radial-gradient(circle at 9% 0%,rgba(155,122,255,.18),transparent 30rem),radial-gradient(circle at 90% 18%,rgba(243,99,164,.13),transparent 25rem),var(--bg);line-height:1.55}button,input{font:inherit}button{cursor:pointer;border:0}.app{max-width:1180px;margin:auto;padding:28px 22px 80px}.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:56px}.brand{display:flex;gap:12px;align-items:center;font-weight:700;letter-spacing:.04em}.brand-mark{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--pink));color:#17111d;font-size:20px;box-shadow:0 0 30px rgba(245,199,106,.3)}.step-counter{color:var(--muted);font-size:14px}.step-counter strong{color:var(--gold)}.screen{display:none;animation:rise .5s ease both}.screen.active{display:block}.eyebrow{text-transform:uppercase;letter-spacing:.2em;color:var(--gold);font-size:12px;font-weight:700;margin:0 0 12px}.hero-title{font-family:'Playfair Display',serif;font-size:clamp(2.45rem,6vw,5.3rem);line-height:1.07;max-width:800px;margin:0 0 24px;background:linear-gradient(100deg,#fff 8%,var(--gold) 43%,var(--pink) 72%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}.section-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3.5rem);line-height:1.14;margin:0 0 12px;background:linear-gradient(100deg,#fff,var(--gold),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);font-size:18px;max-width:730px;margin:0 0 30px}.info-layout{display:grid;grid-template-columns:1.3fr .7fr;gap:20px;margin:34px 0}.panel{background:linear-gradient(145deg,rgba(30,30,50,.9),rgba(14,14,25,.92));border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:var(--shadow)}.panel h2,.panel h3{margin-top:0}.panel h2{font-size:24px}.bullets{padding:0;margin:18px 0 0;list-style:none}.bullets li{padding:11px 0 11px 30px;border-bottom:1px solid var(--line);position:relative;color:#ddd9ea}.bullets li:before{content:'✦';color:var(--gold);position:absolute;left:0}.charge{border-left:3px solid var(--pink)}.charge strong{font-size:25px;color:var(--gold)}.summary-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0 38px}.summary{padding:20px;border-radius:18px;min-height:125px;border:1px solid var(--line)}.summary:nth-child(1){background:linear-gradient(140deg,#31214f,#17172c)}.summary:nth-child(2){background:linear-gradient(140deg,#173b52,#151c31)}.summary:nth-child(3){background:linear-gradient(140deg,#512642,#1b182d)}.summary:nth-child(4){background:linear-gradient(140deg,#4d3d1c,#1b1823)}.summary b{display:block;font-size:27px;color:#fff}.summary span{color:var(--muted);font-size:14px}.explain{margin:22px 0 34px}.explain p{color:var(--muted);margin:6px 0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.primary,.secondary{padding:14px 23px;border-radius:12px;font-weight:700;transition:.25s transform,.25s box-shadow}.primary{background:linear-gradient(100deg,var(--gold),#f28c91);color:#21121d;box-shadow:0 12px 28px rgba(245,199,106,.2)}.primary:hover,.secondary:hover{transform:translateY(-3px);box-shadow:0 15px 32px rgba(155,122,255,.25)}.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}.plan{position:relative;overflow:hidden;display:flex;flex-direction:column;min-height:375px}.plan:after{content:'';height:3px;position:absolute;inset:0 0 auto;background:linear-gradient(90deg,var(--gold),var(--pink),var(--cyan))}.plan:nth-child(2):after{background:linear-gradient(90deg,var(--pink),var(--violet))}.plan:nth-child(3):after{background:linear-gradient(90deg,var(--cyan),var(--green))}.plan h3{font-size:25px;margin:12px 0 2px}.price{font-family:'Playfair Display',serif;font-size:34px;color:var(--gold);margin:8px 0}.plan p{color:var(--muted);margin:0 0 14px}.plan ul{list-style:none;padding:0;margin:0 0 20px;color:#dedbea}.plan li{margin:7px 0}.plan li:before{content:'✓';color:var(--green);margin-right:8px}.plan .primary{margin-top:auto}.destination-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:25px}.destination{padding:20px 16px;min-height:175px;border-radius:18px;background:var(--panel);border:1px solid var(--line);transition:.25s transform,.25s box-shadow,.25s border-color}.destination:hover{transform:translateY(-5px);border-color:var(--cyan);box-shadow:0 10px 35px rgba(97,213,245,.17)}.flag{font-size:34px;display:block;margin-bottom:10px}.destination h3{font-size:19px;margin:0 0 12px}.destination button{padding:9px 14px;border-radius:9px;background:rgba(255,255,255,.08);color:var(--text);border:1px solid var(--line)}.detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:28px 0}.detail-item{padding:20px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.035)}.detail-item b{display:block;color:var(--gold);margin-bottom:5px}.detail-item p{margin:0;color:#ddd9ea}.selected-banner{display:flex;align-items:center;gap:17px;padding:19px 22px;border-radius:17px;background:linear-gradient(100deg,rgba(155,122,255,.16),rgba(243,99,164,.1));border:1px solid rgba(155,122,255,.35);margin:25px 0}.selected-banner .flag{margin:0}.form{max-width:650px;margin-top:30px}.field{margin:18px 0}.field label{display:block;margin-bottom:7px;font-weight:600}.field input{width:100%;padding:14px 16px;border-radius:11px;background:#0e0e1b;color:var(--text);border:1px solid var(--line);outline:none}.field input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(245,199,106,.12)}.error{color:#ff8eae;font-size:14px;min-height:20px;margin-top:4px}.payment-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:28px 0}.payment-summary div{padding:17px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid var(--line)}.payment-summary span{display:block;color:var(--muted);font-size:13px}.payment-summary strong{font-size:19px;color:var(--gold)}.methods{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.method{padding:21px;border-radius:17px;border:1px solid var(--line);background:var(--panel)}.method h3{margin:0 0 12px}.method.bkash{border-top:3px solid #c34cff}.method.nagad{border-top:3px solid #41d98a}.method.rocket{border-top:3px solid #4c9dff}.account{display:flex;align-items:center;gap:8px;background:#0d0d18;border:1px solid var(--line);padding:9px;border-radius:9px;word-break:break-all;color:#fff;font-size:14px}.copy{white-space:nowrap;padding:7px 9px;border-radius:7px;background:rgba(255,255,255,.1);color:var(--text);font-size:13px}.upload{margin-top:24px}.upload input{display:none}.upload-label{display:inline-block;padding:14px 18px;border-radius:11px;border:1px dashed var(--gold);color:var(--gold);cursor:pointer}.preview-wrap{display:none;margin-top:17px;position:relative;width:min(100%,420px)}.preview-wrap img{display:block;width:100%;max-height:260px;object-fit:contain;border-radius:12px;border:1px solid var(--line);background:#05050c}.remove{position:absolute;right:8px;top:8px;border-radius:50%;width:31px;height:31px;background:#181322;color:#fff}.notice{font-size:14px;color:var(--muted);margin-top:16px}.toast{position:fixed;right:22px;bottom:28px;z-index:20;padding:13px 17px;border-radius:11px;background:#e9fff5;color:#113325;box-shadow:var(--shadow);transform:translateY(100px);opacity:0;transition:.3s}.toast.show{transform:translateY(0);opacity:1}.support{position:fixed;right:22px;bottom:22px;z-index:15;display:flex;align-items:center;gap:0}.support a{display:flex;align-items:center;gap:9px;width:54px;height:54px;padding:0 15px;border-radius:28px;background:linear-gradient(135deg,#29a9ea,#6f7bff);color:#fff;text-decoration:none;box-shadow:0 7px 28px rgba(41,169,234,.4);overflow:hidden;transition:.3s width,.3s transform}.support a:hover{width:140px;transform:translateY(-4px)}.support-icon{font-size:25px;flex:0 0 auto}.support-label{white-space:nowrap;font-weight:700;opacity:0;transition:.2s opacity}.support a:hover .support-label{opacity:1}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}@media(max-width:850px){.info-layout,.cards{grid-template-columns:1fr 1fr}.summary-grid{grid-template-columns:repeat(2,1fr)}.destination-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:590px){.app{padding:20px 15px 92px}.topbar{margin-bottom:38px}.brand{font-size:14px}.info-layout,.cards,.detail-grid,.methods,.payment-summary{grid-template-columns:1fr}.hero-title{font-size:2.7rem}.lead{font-size:16px}.panel{padding:21px}.summary-grid{gap:10px}.summary{min-height:105px;padding:15px}.summary b{font-size:22px}.destination-grid{grid-template-columns:1fr 1fr;gap:10px}.destination{min-height:165px;padding:15px 12px}.destination h3{font-size:16px}.support{right:15px;bottom:15px}}
+  </style>
 </head>
 <body>
+  <main class="app">
+    <header class="topbar"><div class="brand"><span class="brand-mark">✦</span><span>ELITE MEMBERSHIP</span></div><div class="step-counter">STEP <strong id="stepNumber">1</strong> / 5</div></header>
 
-<h2>আমাদের প্ল্যাটফর্ম সম্পর্কে</h2>
-<div class="section">
-<p>আমাদের প্ল্যাটফর্মে যারা কাজ করতে চান, তারা খুব সহজেই রেজিস্ট্রেশন করে সঙ্গে সঙ্গে কাজ শুরু করতে পারবেন। এখানে তিন ধরনের কাজের অপশন রয়েছে—আপনার সুবিধা অনুযায়ী যেকোনোটি বেছে নিতে পারবেন।</p>
-<p>✔ রেজিস্ট্রেশন সম্পন্ন হলে আপনার সেকশন মতো কাজ অ্যাক্টিভ হয়ে যাবে<br>
-✔ কাজ করতে আর কোনো অতিরিক্ত খরচ লাগবে না<br>
-✔ সাপোর্ট টিম থেকে সম্পূর্ণ নির্দেশনা পাবেন<br>
-✔ চাইলে পরে কাজের ক্যাটাগরি পরিবর্তন করা যাবে</p>
-</div>
+    <section class="screen active" data-screen="1">
+      <p class="eyebrow">A better beginning</p><h1 class="hero-title">✨ আমাদের প্ল্যাটফর্ম সম্পর্কে</h1><p class="lead">আপনার দক্ষতা, সময় এবং ভবিষ্যৎকে একটি premium membership-এর মাধ্যমে নতুন সুযোগের সঙ্গে যুক্ত করুন।</p>
+      <div class="info-layout"><article class="panel"><h2>কাজের ধরণ এবং চার্জ</h2><p>আমাদের curated network সদস্যদের যাচাই করা কাজের সুযোগ, পরিষ্কার নির্দেশনা এবং dedicated support দেয়। প্রতিটি প্ল্যানের সুবিধা অনুযায়ী এককালীন membership charge প্রযোজ্য।</p><ul class="bullets"><li>নির্বাচিত destination অনুযায়ী কাজের তথ্য</li><li>সদস্যদের জন্য priority guidance</li><li>স্বচ্ছ নিয়ম ও প্রয়োজনীয় শর্ত</li><li>দ্রুত registration এবং payment process</li></ul></article><article class="panel charge"><h2>আপনার যাত্রা</h2><p>সঠিক প্ল্যান বেছে নিন, আপনার তথ্য দিন এবং payment instructions অনুসরণ করুন।</p><strong>Simple. Clear. Premium.</strong></article></div>
+      <div class="summary-grid"><div class="summary"><b>০১</b><span>পছন্দের প্ল্যান</span></div><div class="summary"><b>০২</b><span>সঠিক destination</span></div><div class="summary"><b>০৩</b><span>Dedicated support</span></div><div class="summary"><b>০৪</b><span>স্বচ্ছ process</span></div></div>
+      <article class="panel explain"><h2>কেন রেজিস্ট্রেশন ফ্রি নয়?</h2><p>Membership fee আমাদের research, verification, support এবং platform maintenance-এর খরচ বহন করে। এই charge একটি পরিষ্কার service commitment তৈরি করে এবং serious applicants-দের জন্য একটি সংগঠিত অভিজ্ঞতা নিশ্চিত করে।</p></article>
+      <div class="actions"><button class="primary" data-go="2">👉 Membership নিতে চাই</button></div>
+    </section>
 
-<h2>কাজের ধরণ এবং চার্জ</h2>
+    <section class="screen" data-screen="2"><p class="eyebrow">Find your fit</p><h1 class="section-title">🌈 আপনার পছন্দমতো প্ল্যান বাছাই করুন</h1><p class="lead">আপনার লক্ষ্য অনুযায়ী একটি membership বেছে নিন। International plan বেছে নিলে পরের ধাপে destination নির্বাচন করতে পারবেন।</p><div id="planCards" class="cards"></div><div class="actions"><button class="secondary" data-go="1">← ফিরে যান</button></div></section>
 
-<div class="section">
-<h3>ঢাকার ভেতরের কাজ — <span class="price">৳200</span></h3>
-<p>লোকাল কাজ (ঢাকার ভিতরে)। রেজিস্ট্রেশন সম্পন্ন হলে সাথে সাথেই কাজ শুরু করতে পারবেন।</p>
-</div>
+    <section class="screen" data-screen="destination"><p class="eyebrow">International network</p><h1 class="section-title">🌍 আপনার destination বেছে নিন</h1><p class="lead">যে দেশে কাজের তথ্য দেখতে চান, সেটি নির্বাচন করুন।</p><div id="destinationGrid" class="destination-grid"></div><div class="actions"><button class="secondary" data-go="2">← প্ল্যান বদলান</button></div></section>
 
-<div class="section">
-<h3>ঢাকার বাইরের কাজ — <span class="price">৳300</span></h3>
-<p>ঢাকার বাহিরের সার্ভিস এটায় আপনি ফুল বাংলাদেশের কাজ করতে পারবেন। 
-বাংলাদেশের যেকোনো জেলাতেই হোন।</p>
-</div>
+    <section class="screen" data-screen="3"><p class="eyebrow">Your selection</p><h1 class="section-title">📋 আপনার নির্বাচিত Membership</h1><div id="selectedBanner" class="selected-banner"></div><div id="detailGrid" class="detail-grid"></div><div class="actions"><button class="primary" data-go="4">👉 Membership নিতে চাই</button><button class="secondary" data-go="2">← পরিবর্তন করুন</button></div></section>
 
-<div class="section">
-<h3>বাংলাদেশের বাইরের কাজ — <span class="price">৳1500</span></h3>
-<p>যারা প্রবাসে থাকেন এটা তাদের জন্য। 
-বিদেশি যেই ম্যডামরা আছে তাদেরকে সার্ভিস দিতে হবে।
-এটা শুধু মাত্র প্রবাসী দের জন্য</p>
-</div>
+    <section class="screen" data-screen="4"><p class="eyebrow">Almost there</p><h1 class="section-title">আপনার registration সম্পূর্ণ করুন</h1><p class="lead">মাত্র তিনটি তথ্য দিন। এগুলো payment portal-এ আপনার সঙ্গে carry হবে।</p><form id="registrationForm" class="panel form" novalidate><div class="field"><label for="name">👤 নাম</label><input id="name" autocomplete="name" placeholder="আপনার পূর্ণ নাম"><div class="error" id="nameError"></div></div><div class="field"><label for="mobile">📱 মোবাইল নম্বর</label><input id="mobile" inputmode="tel" autocomplete="tel" placeholder="01XXXXXXXXX"><div class="error" id="mobileError"></div></div><div class="field"><label for="district">📍 জেলা</label><input id="district" placeholder="আপনার জেলা"><div class="error" id="districtError"></div></div><button class="primary" type="submit">👉 Registration Submit</button></form><div class="actions"><button class="secondary" data-go="3">← আগের ধাপ</button></div></section>
 
-<h2>কেন রেজিস্ট্রেশন ফ্রি নয়?</h2>
-<div class="section">
-<p>আমাদের এজেন্সিকে কাজ সংগ্রহ, বিদেশি ক্লায়েন্ট ম্যানেজ, নিয়মিত বিজ্ঞাপন (Ads) চালানো, সাপোর্ট টিম পরিচালনা, এবং সিস্টেম মেইনটেইন করতে নিয়মিত খরচ বহন করতে হয়। এইসব অফিসিয়াল খরচ কাভার করার জন্যই রেজিস্ট্রেশন ফি নেওয়া হয়। এটি কোনো ব্যক্তিগত চার্জ নয়।</p>
-<p>যদি কারো কাছে এই চার্জ সমস্যা মনে হয়, তবে প্ল্যাটফর্ম ব্যবহার না করলেও সমস্যা নেই — আমরা শুধুমাত্র সেবা দেই যারা কাজ করতে সিরিয়াস।</p>
-</div>
+    <section class="screen" data-screen="5"><p class="eyebrow">Secure your spot</p><h1 class="section-title">💳 Payment Portal</h1><div id="paymentSummary" class="payment-summary"></div><div class="methods"><article class="method bkash"><h3>🟣 bKASH</h3><div class="account"><span id="bkashNumber"></span><button class="copy" data-copy="bkash">📋 Copy</button></div></article><article class="method nagad"><h3>🟢 NAGAD</h3><div class="account"><span id="nagadNumber"></span><button class="copy" data-copy="nagad">📋 Copy</button></div></article><article class="method rocket"><h3>🔵 ROCKET</h3><div class="account"><span id="rocketNumber"></span><button class="copy" data-copy="rocket">📋 Copy</button></div></article></div><article class="panel upload"><h2>📸 Payment Screenshot</h2><p class="notice">Screenshot preview আপনার browser-এ কাজ করবে। এক ফাইলের pure frontend থেকে server/admin-এ বাস্তব upload সম্ভব নয়, তাই নিচের submit button কোনো fake success দেখাবে না।</p><label class="upload-label" for="screenshot">📁 Screenshot select করুন</label><input id="screenshot" type="file" accept="image/*"><div class="preview-wrap" id="previewWrap"><img id="preview" alt="Payment screenshot preview"><button class="remove" id="removeImage" type="button" aria-label="Remove screenshot">×</button></div><button class="primary" id="submitScreenshot" type="button" style="margin-top:18px">📤 Screenshot Submit</button><p class="notice" id="submitNotice"></p></article><div class="actions"><button class="secondary" data-go="4">← তথ্য পরিবর্তন করুন</button></div></section>
+  </main>
+  <div class="toast" id="toast">✓ Account number copied!</div>
+  <div class="support"><a id="supportLink" target="_blank" rel="noopener" aria-label="Open Telegram Support"><span class="support-icon">➤</span><span class="support-label">Support</span></a></div>
 
-<a class="button" href="https://peaceful-crostata-d82e86.netlify.app/">মেম্বারশিপ নিতে চাই</a>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script>
+    // ================= USER CONFIGURATION =================
+    const SUPPORT_LINK = "এখানে আপনার Telegram Support Link বসাবেন";
+    const SUPPORT_MESSAGE = "আসসালামু আলাইকুম। আমি Membership সম্পর্কে জানতে চাই। আমার কিছু সাহায্য প্রয়োজন।";
+    const PAYMENT = {
+      bkash: "এখানে আপনার bKash নম্বর বসাবেন",
+      nagad: "এখানে আপনার Nagad নম্বর বসাবেন",
+      rocket: "এখানে আপনার Rocket নম্বর বসাবেন"
+    };
+    // 👉 এখানে আপনার membership ও destination তথ্য বসাবেন
+    const MEMBERSHIPS = [
+      {id:"basic",name:"Basic Membership",price:"৳ ১,৫০০",description:"শুরু করার জন্য প্রয়োজনীয় essential access।",benefits:["প্রাথমিক কাজের তথ্য","Standard guidance","Member support"],place:"বাংলাদেশ ও নির্বাচিত online work",type:"Basic level opportunity",rules:"নির্দেশনা অনুসরণ করে ধাপে ধাপে কাজ করতে হবে।",terms:"সঠিক পরিচয় ও সক্রিয় মোবাইল নম্বর প্রয়োজন।",important:"কাজের availability সময় ও profile অনুযায়ী পরিবর্তিত হতে পারে।"},
+      {id:"premium",name:"Premium Membership",price:"৳ ৩,৫০০",description:"আরও focused support এবং priority access।",benefits:["Priority কাজের তথ্য","Advanced guidance","Faster support"],place:"বাংলাদেশ ও remote network",type:"Premium level opportunity",rules:"প্রতিটি কাজের deadline ও quality standard মানতে হবে।",terms:"সঠিক তথ্য, active phone এবং নিয়ম মেনে আবেদন।",important:"কোনো opportunity নিশ্চিত করার আগে সব details যাচাই করুন।"},
+      {id:"international",name:"🌍 International Membership",price:"৳ ৭,৫০০",description:"নির্বাচিত international destination-এর জন্য premium access।",benefits:["৮টি destination option","International guidance","Dedicated support"],place:"নির্বাচিত international destination",type:"Destination-based opportunity",rules:"নির্বাচিত দেশের নিয়ম, document requirement ও instruction মানতে হবে।",terms:"Valid identity information এবং প্রয়োজনীয় document readiness দরকার।",important:"Membership কোনো visa, job বা travel guarantee নয়; সব তথ্য independently verify করুন."}
+    ];
+    const DESTINATIONS = [
+      {id:"saudi",flag:"🇸🇦",name:"Saudi Arabia — সৌদি আরব"},{id:"dubai",flag:"🇦🇪",name:"Dubai, UAE — দুবাই"},{id:"oman",flag:"🇴🇲",name:"Oman — ওমান"},{id:"qatar",flag:"🇶🇦",name:"Qatar — কাতার"},{id:"kuwait",flag:"🇰🇼",name:"Kuwait — কুয়েত"},{id:"bahrain",flag:"🇧🇭",name:"Bahrain — বাহরাইন"},{id:"malaysia",flag:"🇲🇾",name:"Malaysia — মালয়েশিয়া"},{id:"italy",flag:"🇮🇹",name:"Italy — ইতালি"}
+    ];
+    // ================= APP LOGIC =================
+    const state={membership:null,destination:null,applicant:{},screenshot:null};
+    const $=selector=>document.querySelector(selector);
+    const planById=id=>MEMBERSHIPS.find(plan=>plan.id===id);
+    function show(screen){document.querySelectorAll('.screen').forEach(item=>item.classList.toggle('active',item.dataset.screen===String(screen)));$('#stepNumber').textContent=screen==='destination'?'2':screen==='3'?'3':screen==='4'?'4':screen==='5'?'5':'1';window.scrollTo({top:0,behavior:'smooth'});}
+    function renderPlans(){$('#planCards').innerHTML=MEMBERSHIPS.map(plan=>`<article class="panel plan"><h3>${plan.name}</h3><div class="price">${plan.price}</div><p>${plan.description}</p><ul>${plan.benefits.map(item=>`<li>${item}</li>`).join('')}</ul><button class="primary" data-plan="${plan.id}">এই প্ল্যান নিন →</button></article>`).join('');document.querySelectorAll('[data-plan]').forEach(button=>button.addEventListener('click',()=>selectPlan(button.dataset.plan)));}
+    function renderDestinations(){$('#destinationGrid').innerHTML=DESTINATIONS.map(item=>`<article class="destination"><span class="flag">${item.flag}</span><h3>${item.name}</h3><button data-destination="${item.id}">Select destination →</button></article>`).join('');document.querySelectorAll('[data-destination]').forEach(button=>button.addEventListener('click',()=>selectDestination(button.dataset.destination)));}
+    function selectPlan(id){state.membership=planById(id);state.destination=null;if(id==='international'){show('destination');}else{renderDetails();show('3');}}
+    function selectDestination(id){state.destination=DESTINATIONS.find(item=>item.id===id);renderDetails();show('3');}
+    function renderDetails(){const plan=state.membership,destination=state.destination;$('#selectedBanner').innerHTML=`${destination?`<span class="flag">${destination.flag}</span>`:''}<div><strong>${plan.name}</strong><div>${destination?destination.name:'বাংলাদেশ'}</div></div>`;const details=[['Price',plan.price],['কাজের স্থান',destination?destination.name:plan.place],['কাজের ধরণ',plan.type],['কাজের নিয়ম',plan.rules],['সুবিধা',plan.benefits.join(' • ')],['প্রয়োজনীয় শর্ত',plan.terms],['গুরুত্বপূর্ণ তথ্য',plan.important]];$('#detailGrid').innerHTML=details.map(item=>`<div class="detail-item"><b>${item[0]}</b><p>${item[1]}</p></div>`).join('');}
+    function renderPayment(){const plan=state.membership;$('#paymentSummary').innerHTML=[['Selected Membership',plan.name],['Selected Destination',state.destination?`${state.destination.flag} ${state.destination.name}`:'বাংলাদেশ'],['Payable Amount',plan.price]].map(item=>`<div><span>${item[0]}</span><strong>${item[1]}</strong></div>`).join('');Object.entries(PAYMENT).forEach(([key,value])=>{ $(`#${key}Number`).textContent=value;});}
+    function toast(){const item=$('#toast');item.classList.add('show');setTimeout(()=>item.classList.remove('show'),1800);}
+    document.querySelectorAll('[data-go]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.go==='2')renderPlans();show(button.dataset.go);}));
+    $('#registrationForm').addEventListener('submit',event=>{event.preventDefault();const fields=[['name','নাম'],['mobile','মোবাইল নম্বর'],['district','জেলা']];let valid=true;fields.forEach(([id,label])=>{const input=$(`#${id}`),error=$(`#${id}Error`);error.textContent='';if(!input.value.trim()){error.textContent=`${label} প্রয়োজন`;valid=false;}else if(id==='mobile'&&!/^[0-9+\- ]{8,16}$/.test(input.value.trim())){error.textContent='সঠিক মোবাইল নম্বর দিন';valid=false;}});if(!valid)return;state.applicant={name:$('#name').value.trim(),mobile:$('#mobile').value.trim(),district:$('#district').value.trim()};renderPayment();show('5');});
+    document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{const value=PAYMENT[button.dataset.copy];try{await navigator.clipboard.writeText(value);button.textContent='✓ Copied!';toast();setTimeout(()=>button.textContent='📋 Copy',1800);}catch(error){button.textContent='Copy failed';}}));
+    $('#screenshot').addEventListener('change',event=>{const file=event.target.files[0];if(!file)return;if(!file.type.startsWith('image/')){event.target.value='';return;}state.screenshot=file;$('#preview').src=URL.createObjectURL(file);$('#previewWrap').style.display='block';$('#submitNotice').textContent='';});
+    $('#removeImage').addEventListener('click',()=>{$('#screenshot').value='';state.screenshot=null;$('#preview').removeAttribute('src');$('#previewWrap').style.display='none';$('#submitNotice').textContent='';});
+    $('#submitScreenshot').addEventListener('click',()=>{if(!state.screenshot){$('#submitNotice').textContent='আগে payment screenshot select করুন।';return;}const submission={...state.applicant,membership:state.membership.name,destination:state.destination?.name||'বাংলাদেশ',price:state.membership.price,screenshot:state.screenshot.name,submissionTime:new Date().toISOString()};console.info('Ready for secure backend upload:',submission);$('#submitNotice').textContent='Screenshot প্রস্তুত আছে। বাস্তব submission-এর জন্য backend endpoint যুক্ত করুন; কোনো fake success দেখানো হয়নি।';});
+    const supportUrl=SUPPORT_LINK.includes('http')?`${SUPPORT_LINK}?text=${encodeURIComponent(SUPPORT_MESSAGE)}`:'#';$('#supportLink').href=supportUrl;renderDestinations();
+  </script>
 </body>
 </html>
